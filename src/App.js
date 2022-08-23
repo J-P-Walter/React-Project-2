@@ -8,7 +8,8 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        {/* <Hero /> */}
+        {/*  */}
+        <Hero />
         <Card />
       </div>
     );

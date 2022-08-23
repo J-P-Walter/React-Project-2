@@ -12,8 +12,8 @@ code {
     monospace;
 }
 
-.inter-font {
-  font-family: "Inter";
+.poppins-font {
+  font-family: "Poppins";
 }
 
 * {
@@ -30,4 +30,37 @@ nav {
   padding: 20px 36px;
   background-color: white;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.photo-grid {
+  align-self: center;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  width: 75%;
+}
+
+main {
+  padding: 36px;
+}
+
+.main-title {
+  position: relative;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 7vw;
+  line-height: 110%;
+  margin-bottom: 25px;
+}
+.main-text {
+  width: 65vw;
+  position: relative;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.2vw;
+  line-height: 110%;
+  margin-top: 0px;
+}
+.card {
+  border-radius: 9px;
 }

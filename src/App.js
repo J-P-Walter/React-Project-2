@@ -2,21 +2,28 @@ import React, { Component } from "react";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Card from "./components/card";
+import cardData from "./data";
 
 function App() {
+  const Cards = cardData.map((card) => (
+    <Card
+      id={card.id}
+      title={card.title}
+      description={card.description}
+      price={card.price}
+      coverImg={card.coverImg}
+      rating={card.stats.rating}
+      reviewCount={card.stats.reviewCount}
+      location={card.location}
+      openSpots={card.openSpots}
+    />
+  ));
   return (
     <div>
       <Navbar />
       {/*  */}
       <Hero />
-      <Card
-        img="../images/katie-zaferes.png"
-        rating="5.0"
-        reviewCount={6}
-        country="USA"
-        title="Life lessons with Katie Zaferes"
-        price={136}
-      />
+      {Cards}
     </div>
   );
 }

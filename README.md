@@ -1,4 +1,4 @@
-Project 2 from Bob Zirol's React Class -Webpage to learn about dynamicly rendering data to the webpage.
+Project 2 from Bob Zirol's React Class -Webpage to learn about dynamicly rendering data to the webpage.\
 Can be viewed at https://jp-walter-project-2.netlify.app/
 
 # Getting Started with Create React App

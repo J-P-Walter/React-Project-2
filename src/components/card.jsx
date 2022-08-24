@@ -1,6 +1,7 @@
 function Card(props) {
   return (
     <div className="poppins-font card">
+      {props.openSpots === 0 && <div className="card-badge">SOLD OUT</div>}
       {/*<img
         className="card-img"
         src={require("../images/katie-zaferes.png")}

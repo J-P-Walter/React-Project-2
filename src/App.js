@@ -5,19 +5,7 @@ import Card from "./components/card";
 import cardData from "./data";
 
 function App() {
-  const Cards = cardData.map((card) => (
-    <Card
-      key={card.id}
-      title={card.title}
-      description={card.description}
-      price={card.price}
-      coverImg={card.coverImg}
-      rating={card.stats.rating}
-      reviewCount={card.stats.reviewCount}
-      location={card.location}
-      openSpots={card.openSpots}
-    />
-  ));
+  const Cards = cardData.map((card) => <Card key={card.id} item={card} />);
   return (
     <div>
       <Navbar />
